@@ -1,0 +1,86 @@
+// @media (max-width: 1024px) {
+// .contenedor-cards {
+//     grid-template-columns: repeat(1,1fr);
+//     grid-template-rows: repeat(1,1fr);
+//     }
+// }
+
+//  @media (max-width: 770px) {
+//     .contenedor-cards {
+//          grid-template-columns: repeat(2,1fr);         
+//          grid-template-rows: repeat(2,1fr);
+//    }
+//     }
+@media (max-width: $tablet) {
+    .contenedor-cards {
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+}
+
+@media (max-width: $mobile) {    
+    .contenedor-cards {
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+
+    .container-info {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-gap: 1rem;
+    }
+
+    footer {
+        section {
+            .container-nav-footer {
+                flex-direction: column;
+                .caja-tienda {
+                    ul {
+                        li {
+                            text-align: center;
+                        }
+                    }
+                }
+                .caja-empresa {
+                    ul {
+                        li {
+                            text-align: center;
+                        }
+                    }
+                }
+
+                .caja-redes {
+                    ul {
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container-info {
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 1rem;
+    }
+}
+
+@media (max-width: 1018px){
+    .caja-ig{
+        .ig{
+            .text-ig{
+                font-size: $fs-quinto;
+                text-align: center;
+            }
+            
+        }
+    }
+}
+
+@media (max-width: 350px){
+    .cartel-p{
+        display: none;
+    }
+}
+

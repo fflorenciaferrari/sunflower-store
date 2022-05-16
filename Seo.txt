@@ -1,0 +1,24 @@
+favicom :
+agregue un favicom personalizado con nuestro logo para poder distinguirnos entre
+las pestañas de tu navegador.
+
+title:
+agregue titles para cada uno de los archivos de mi pagina para poder distinguirnos mejor al 
+buscarnos, con la informacion para guiar mucho mejor a los usuarios que accedan a mi tienda 
+
+
+etiqueta meta description:
+agregue una description en cada archivo de mi pagina que les permite a los usuarios 
+tener una idea de que contenido hay en cada uno.
+
+
+keywords :
+agrege keywords relacionadas al sitio para poder aparece mas en las busquedas de los usuarios
+
+
+open graph 
+agregue etiquetas meta para poder tener un diseño mas personalizado con mucha info para cuando nuestro usuarios
+comparten nuestro sitio por redes sociales
+
+
+

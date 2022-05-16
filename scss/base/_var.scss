@@ -1,0 +1,62 @@
+
+// colores
+
+// fondo
+$bg-primero: #EFE2FC;
+$bg-segundo: #7e61d7;
+$bg-tercero:#d9bcf9;
+$bg-quarto:#F8F9FA;
+$bg-quinto:#FFFFFF;
+$bg-sexto: #AE9CE6;
+$bg-redes:#141314; 
+$bg-footer: #EAEAEA;
+
+
+// letras
+$clr-primero: #FFFFFF;
+$clr-segundo: #EFE2FC;
+$clr-tercero: rgb(27, 27, 27);
+$clr-cuarto: #7e61d7;
+$clr-quinto: #D9BCF9;
+$clr-sexto:#F8F9FA;
+$clr-sexto:#141314;
+$clr-septimo:#EAEAEA;
+
+
+
+// size
+
+
+// font-size
+$fs-h1: 3.75rem;
+$fs-titles: 3.125rem;
+$fs-primero: 2.5rem;
+$fs-segundo: 1.875rem;
+$fs-tercero: 1.25rem;
+$fs-cuarto: 1.125rem;
+$fs-quinto: 0.938rem;
+$fs-sexto: 0.75rem;
+$fs-septimo:0.625rem;
+$fs-octavo:0.313 rem;
+
+// font-family
+$ff-primary: 'Aleo', serif;
+$ff-secondary: 'Roboto', sans-serif;
+$ff-terceary: 'Poppins', sans-serif;
+$ff-quarteary:'Open Sans', sans-serif;
+
+
+
+// font-weight
+$font-weight: (
+    "light": 300,
+    "regular": 400,
+    "medium": 500,
+    "bold": 600,
+    "bolder": 700
+);
+
+// media-queries
+$desktop: 1024px;
+$tablet: 768px;
+$mobile: 425px;

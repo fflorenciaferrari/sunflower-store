@@ -1,0 +1,264 @@
+footer{
+    width: 100%;
+    .p-more {
+        padding-top: 7rem;
+    }
+    section{
+        width: 100%;
+            .container-info{
+                display: flex;
+                justify-content: space-around;
+                .caja-info{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 1rem;
+                    .icon-info{
+                        width: 2rem;
+                        height: 2rem;
+                    }
+                    .texto-info{
+                        font-size: $fs-sexto;
+                        font-family: $ff-terceary;
+                        text-align: center;
+                    }
+                }
+            }
+            .container-ig{
+                width: 100%;
+                background-color: $bg-redes;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap:1rem;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                .caja-ig{
+                    .link-footer{
+                        text-decoration: none;
+                            display: flex;
+                            color: #fff;
+                    .icon-ig{
+                        padding-right: 1rem;
+                        color: $clr-primero ;
+                            }
+                            .texto-ig{
+                                font-family: $ff-quarteary;
+                                color: $bg-quinto;
+                                font-size: $fs-tercero;
+                                margin-top: 0.2rem;
+                            }
+                    }
+                }    
+                .boton-seguinos{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .link-footer{
+                        text-decoration: none;
+                        border-radius: 2rem;
+                        display: inline-block;
+                        background-color: $bg-quinto;
+                        padding: 0.5rem 2rem;
+                        .text-boton{
+                            border-radius: 15%;
+                            // padding: 0.5rem 2rem;
+                            color:black;
+                            font-family: $ff-quarteary;
+                            font-size: $fs-cuarto;
+                        }
+                    }    
+                }
+                .caja-texto{
+                    margin-left: 2.5rem;
+                    .texto-comunidad{
+                        color: #fff;
+                        text-align: center;
+                        font-size: $fs-tercero;
+                        font-family: $ff-quarteary;
+                    }
+                }
+            }
+        .container-nav-footer{
+            width: 100%;
+            background-color: $bg-tercero;
+            display: flex;
+            padding-bottom: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 0px;
+            justify-content: space-around;
+            padding-top: 2rem ;
+            .caja-tienda{
+                justify-content: center;
+                align-items: center;
+                .title-nav{
+                    font-family: $ff-terceary;
+                    text-align: center;
+                    margin-bottom: 1rem;
+                    font-size: $fs-cuarto;
+                }
+                .contenedor-nav-footer {
+                    list-style-type: none;
+                    .caja-nav{
+                        .link-footer{
+                            color: $clr-sexto;
+                            font-family: $ff-terceary;
+                            text-decoration: none;
+                            font-size: $fs-sexto;
+                            &:hover{
+                                color: $clr-segundo;
+                            }
+                        }
+                    }
+                }
+            }
+            .caja-empresa{
+                justify-content: center;
+                align-items: center;
+                .title-nav{
+                    font-family: $ff-terceary;
+                    text-align: center;
+                    margin-bottom: 1rem;
+                    font-size: $fs-cuarto;
+                }
+                .contenedor-nav-footer{
+                    list-style-type: none;
+                    .caja-nav{
+                        .link-footer{
+                            color: $clr-sexto;
+                            font-family: $ff-terceary;
+                            text-decoration: none;
+                            font-size: $fs-sexto;
+                            &:hover{
+                                color: $clr-segundo;
+                            }
+                        }
+                    }
+                }
+            }
+            .caja-redes{
+                justify-content: center;
+                align-items: center;
+                .title-nav{
+                    font-family: $ff-terceary;
+                    text-align: center;
+                    margin-bottom: 1rem;
+                    font-size: $fs-cuarto;
+                }
+                .contenedor-nav-footer{
+                    display: flex;
+                    gap: 1rem;
+                    list-style-type: none;
+                    padding: 0rem;
+                    .caja-nav{
+                        .link-footer{
+                            text-decoration: none;
+                            color: $clr-tercero;
+                            width: 35px;
+                            height: 35px;
+                            .img-footer{
+                                height: 1.5rem;
+                                width: 1.5rem;
+                                color: $clr-tercero;
+                                &:hover{
+                                    color: $clr-segundo;
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+            
+        }
+    }    
+}
+
+
+
+
+//     .espacio{
+//         background-color: $color-body;
+//         width: auto;
+//         height: 10rem;
+//         }
+//     .contenedor-footer{
+//         width: 100vw;
+//         height: 70vh;
+
+//         .caja-ig{
+            
+//             .ig{
+//                 height: 30vh;
+//                 background-color: $col-blanco;
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+//                 flex-direction: column;
+//                 gap: 2rem;
+                
+//                     .ig-redes{
+//                         text-decoration: none;
+//                         color: $col-negro;
+//                         font-family: 'Poppins', sans-serif;
+//                         font-weight: weight(light);
+//                         & :hover{
+//                             color: $bg-segundo;
+//                             transition: all 0.2s ease-in-out;    
+//                             }
+//             }
+//         }
+
+//     }
+
+//     .section-nav{
+//         background-color: #EAEAEA;
+//         height: 40vh;
+//         .caja-nav{
+//             .navegador{
+//                 text-align:left;
+//                 padding-top: 2rem;
+//                 margin-left: 1rem;
+//                 text-decoration: none;
+//                 list-style-type: none;
+//                 color: $col-negro;
+//                 font-family: $ff-secondary;
+//                 font-weight: weight(light);
+//                     .nav-footer{
+//                         margin-top: 0.5rem;
+//                         .text-enlace{
+//                             text-decoration: none;
+//                             color: black;
+//                             font-family: $ff-secondary;
+//                             font-weight: weight(light);
+//                             &:hover{
+//                                 color: $bg-segundo;
+//                                 transition: all 0.2s ease-in-out;
+//                                 }
+//                         }
+//                     }    
+            
+//                 }
+//             }
+    
+//         .caja-redes{
+//             margin-top: 2rem;
+//             margin-left: 1rem;
+//             .redes{
+//                 text-decoration: none;
+//                 list-style-type: none;
+//                 display: flex;
+//                 gap: 1rem;
+        
+
+//             }
+//         }        
+//     }    
+// }
+
+// }
+
+
+

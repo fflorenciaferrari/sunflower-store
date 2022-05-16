@@ -1,0 +1,14 @@
+// @mixin flexible($dis, $just){
+//     display: $dis;
+//     justify-content: $just;
+// }
+
+// @mixin position($dis, $just ,$alig){
+//     display: $dis;
+//     justify-content: $just;
+//     align-items: $alig;
+// }
+
+@function weight ($weight-name) {
+    @return map-get($font-weight, $weight-name);
+}

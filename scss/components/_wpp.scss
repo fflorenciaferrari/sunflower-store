@@ -1,0 +1,32 @@
+body {
+    .link-wpp {
+        color: $bg-segundo;
+        .wpp {
+            width: 2.5rem;
+            height: 2.5rem;
+            position: fixed;
+            bottom: 0.938rem;
+            right: 0.938rem;
+            // border-radius: 1rem;
+        
+            &:hover {
+                color: $bg-sexto;
+                cursor: pointer;
+                animation-name: chat;
+                animation-timing-function: ease;
+                animation-duration: 0.5s;
+                animation-fill-mode: forwards;
+            }
+        }
+        
+        @keyframes chat {
+            0% {
+                transform: translatey(0rem);
+            }
+        
+            100% {
+                transform: translatey(-1rem);
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $bg-segundo;
+    border-radius: 1rem;
+}
+
+.body{
+    background-color: $bg-quinto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    margin-bottom: 0rem;
+}
+
+ul {
+    padding: 0rem;
+}
+
+.padding-section {
+    padding: 0rem 0rem 7rem 0rem;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
