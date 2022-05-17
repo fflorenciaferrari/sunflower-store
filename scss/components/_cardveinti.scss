@@ -1,0 +1,316 @@
+main{
+    width: 100%;
+    // .title-home{
+    //     font-family: $ff-terceary;
+    //     color: $clr-sexto;
+    //     text-align: center;
+    //     padding-top: 2.5rem;
+    // }
+    section{
+        .title-producto {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            height: auto;
+            .title-text {
+                font-family: $ff-terceary;
+                color: $clr-sexto;
+                font-size: $fs-segundo;
+                font-weight: weight(regular);
+                text-align: center;
+            }
+        }
+        .container-cards{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            .container-title{
+                        padding-top: 1rem;
+                        padding-bottom: 2rem;
+                        .title-categoria{
+                            text-align: center;
+                            font-family: $ff-terceary;
+                            font-weight: weight(light);
+                            font-size: $fs-tercero;
+                            }
+                        } 
+            .caja-cards{
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+                grid-template-rows: repeat(2,1fr);
+                padding: 0rem 2rem;
+                padding-bottom: 8rem;
+                row-gap: 5rem;
+                column-gap: 1rem;
+                max-width: 1080px;
+                margin: auto;
+                .cards{
+                    position: static;
+                    flex-wrap: wrap;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+                    &:hover {
+                        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+                        cursor: pointer;
+                        transition: all 0.2s ease-in-out;
+                    }
+                .container-img{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .card-img{
+                        padding: 1rem;
+                    }
+                    .caja-bag{
+                        width: 2.1rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        background-color: $bg-tercero;
+                        border-radius: 1rem;
+                        &:hover{
+                            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+                            cursor: pointer;
+                            transition: all 0.2s ease-in-out;
+                            background-color: $clr-cuarto;
+                        }
+                        .img-bag{
+                            justify-content: center;
+                            align-items: center;
+                            width: 1rem;
+                            height: 1.5rem; 
+                            }
+                        
+                    }
+                }    
+                .card-info{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 1rem;
+                    width: 100%;
+                    .card-info-p{
+                        padding: 0.5 rem 0 rem;
+                        gap: 1rem;
+                        display: flex;
+                        flex-direction: column;
+                        .info-n{
+                            font-family: $ff-terceary;
+                            color: $clr-quinto;
+                            font-size: $fs-sexto;
+                            font-weight: weight(bold);
+                        }
+                        .info-p{
+                            font-family: $ff-quarteary;
+                            font-size: $fs-sexto;
+                            font-weight: weight(medium);
+                            }
+                        }
+                    .card-icon{
+                        display: flex;
+                        align-items: flex-end;
+                        justify-content: center;
+                        &:hover{
+                            color: $bg-tercero;
+                            transition: all 0.2s ease-in-out;
+                            }
+                        }    
+                    }
+                }
+            .caja-ver-mas{
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                background-color: $bg-redes;
+                height: 1.5rem;
+                width: 6rem;
+                &:hover{
+                    background-color: $bg-tercero;
+                }
+                .enlace-ver-mas{
+                    text-decoration: none;
+                    .p-ver-mas{
+                        text-align: center;
+                        color: $clr-primero;
+                        &:hover{
+                            color: $clr-tercero;
+                        }
+                    }
+                } 
+            }
+            }
+        }
+    }    
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// main{
+//     width: 100%;
+//     // .title-home{
+//     //     font-family: $ff-terceary;
+//     //     color: $clr-sexto;
+//     //     text-align: center;
+//     //     padding-top: 2.5rem;
+//     // }
+//     section{
+//         .title-producto{
+//             width: 100%;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             flex-wrap: wrap;
+//             height: auto;
+//             .title-text {
+//                 font-family: $ff-terceary;
+//                 color: $clr-sexto;
+//                 font-size: $fs-segundo;
+//                 font-weight: weight(regular);
+//                 text-align: center;
+//             }
+//         }
+//     .container-cards{
+//         display: flex;
+//         flex-direction: column;
+//         .container-title{
+//             padding-top: 1rem;
+//             padding-bottom: 2rem;
+//             .title-categoria{
+//                 text-align: center;
+//                 font-family: $ff-terceary;
+//                 font-weight: weight(light);
+//                 font-size: $fs-tercero;
+//                 }
+//             }   
+//             .caja-cards{
+//                 width: 100%;
+//                 display: grid;
+//                 grid-template-columns: repeat(4,1fr);
+//                 grid-template-rows: repeat(2,1fr);
+//                 padding: 0rem 2rem;
+//                 padding-bottom: 8rem;
+//                 row-gap: 5rem;
+//                 column-gap: 1rem;
+//                 max-width: 1080px;
+//                 margin: auto;
+//                 .cards{
+//                     position: static;
+//                     flex-wrap: wrap;
+//                     display: flex;
+//                     justify-content: center;
+//                     align-items: center;
+//                     gap: 1rem;
+//                 &:hover {
+//                     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+//                     cursor: pointer;
+//                     transition: all 0.2s ease-in-out;
+//                             }
+//                     .cards{
+//                         position: static;
+//                         flex-wrap: wrap;
+//                         display: flex;
+//                         justify-content: center;
+//                         align-items: center;
+//                         gap: 1rem;
+//                         &:hover {
+//                             box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+//                             cursor: pointer;
+//                             transition: all 0.2s ease-in-out;
+//                         }
+//                         .container-img{
+//                             display: flex;
+//                             flex-direction: column;
+//                             justify-content: center;
+//                             align-items: center;
+//                             .card-img{
+//                                 padding:1rem;
+//                             }
+//                             .caja-bag{  
+//                                 width: 2.1rem;
+//                                 display: flex;
+//                                 justify-content: center;
+//                                 align-items: center;
+//                                 flex-direction: column;
+//                                 background-color: $bg-tercero;
+//                                 border-radius: 1rem;
+//                                 &:hover{
+//                                     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+//                                     cursor: pointer;
+//                                     transition: all 0.2s ease-in-out;
+//                                     background-color: $clr-cuarto;
+//                                 }
+//                                 .img-bag{
+//                                     justify-content: center;
+//                                     align-items: center;
+//                                     width: 1rem;
+//                                     height: 1.5rem; 
+//                                 }
+//                             }   
+//                         }
+//                         .card-info{
+//                             display: flex;
+//                             justify-content: space-between;
+//                             padding: 1rem;
+//                             width: 100%;
+//                             .card-info-p{
+//                                 padding: 0.5 rem 0 rem;
+//                                 gap: 1rem;
+//                                 display: flex;
+//                                 flex-direction: column;
+//                                 .info-n{
+//                                     font-family: $ff-terceary;
+//                                     color: $clr-quinto;
+//                                     font-style: $fs-cuarto;
+//                                     font-weight: weight(regular);
+//                                 }
+//                                 .info-p{
+//                                     font-family: $ff-quarteary;
+//                                     font-size: $fs-cuarto;
+//                                     font-weight: weight(regular);
+//                                 }
+//                             }
+//                         .card-icon{
+//                             display: flex;
+//                             align-items: flex-end;
+//                             &:hover{
+//                                 color: $bg-tercero;
+//                                 transition: all 0.2s ease-in-out;
+//                                     }
+//                                 }
+//                             }
+//                         }
+//                 }
+//             }
+//         }
+//     }
+// }

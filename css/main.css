@@ -2,9 +2,17 @@
   .contenedor-cards {
     grid-template-columns: repeat(2, 1fr) !important;
   }
+
+  .caja-cards {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
 }
 @media (max-width: 425px) {
   .contenedor-cards {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .caja-cards {
     grid-template-columns: repeat(1, 1fr) !important;
   }
 
@@ -229,13 +237,13 @@ main section .contenedor-cards .card .card-info .card-info-p {
 main section .contenedor-cards .card .card-info .card-info-p .info-n {
   font-family: "Poppins", sans-serif;
   color: #D9BCF9;
-  font-style: 1.125rem;
-  font-weight: 400;
+  font-size: 0.75rem;
+  font-weight: 600;
 }
 main section .contenedor-cards .card .card-info .card-info-p .info-p {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.125rem;
-  font-weight: 400;
+  font-size: 0.75rem;
+  font-weight: 500;
 }
 main section .contenedor-cards .card .card-info .card-icon {
   display: flex;
@@ -244,6 +252,149 @@ main section .contenedor-cards .card .card-info .card-icon {
 main section .contenedor-cards .card .card-info .card-icon:hover {
   color: #d9bcf9;
   transition: all 0.2s ease-in-out;
+}
+
+main {
+  width: 100%;
+}
+main section .title-producto {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+}
+main section .title-producto .title-text {
+  font-family: "Poppins", sans-serif;
+  color: #141314;
+  font-size: 1.875rem;
+  font-weight: 400;
+  text-align: center;
+}
+main section .container-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main section .container-cards .container-title {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+main section .container-cards .container-title .title-categoria {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+main section .container-cards .caja-cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 0rem 2rem;
+  padding-bottom: 8rem;
+  row-gap: 5rem;
+  column-gap: 1rem;
+  max-width: 1080px;
+  margin: auto;
+}
+main section .container-cards .caja-cards .cards {
+  position: static;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+main section .container-cards .caja-cards .cards:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+main section .container-cards .caja-cards .cards .container-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section .container-cards .caja-cards .cards .container-img .card-img {
+  padding: 1rem;
+}
+main section .container-cards .caja-cards .cards .container-img .caja-bag {
+  width: 2.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #d9bcf9;
+  border-radius: 1rem;
+}
+main section .container-cards .caja-cards .cards .container-img .caja-bag:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color: #7e61d7;
+}
+main section .container-cards .caja-cards .cards .container-img .caja-bag .img-bag {
+  justify-content: center;
+  align-items: center;
+  width: 1rem;
+  height: 1.5rem;
+}
+main section .container-cards .caja-cards .cards .card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+main section .container-cards .caja-cards .cards .card-info .card-info-p {
+  padding: 0.5 rem 0 rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+main section .container-cards .caja-cards .cards .card-info .card-info-p .info-n {
+  font-family: "Poppins", sans-serif;
+  color: #D9BCF9;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+main section .container-cards .caja-cards .cards .card-info .card-info-p .info-p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+main section .container-cards .caja-cards .cards .card-info .card-icon {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+main section .container-cards .caja-cards .cards .card-info .card-icon:hover {
+  color: #d9bcf9;
+  transition: all 0.2s ease-in-out;
+}
+main section .container-cards .caja-cards .caja-ver-mas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141314;
+  height: 1.5rem;
+  width: 6rem;
+}
+main section .container-cards .caja-cards .caja-ver-mas:hover {
+  background-color: #d9bcf9;
+}
+main section .container-cards .caja-cards .caja-ver-mas .enlace-ver-mas {
+  text-decoration: none;
+}
+main section .container-cards .caja-cards .caja-ver-mas .enlace-ver-mas .p-ver-mas {
+  text-align: center;
+  color: #FFFFFF;
+}
+main section .container-cards .caja-cards .caja-ver-mas .enlace-ver-mas .p-ver-mas:hover {
+  color: rgb(27, 27, 27);
 }
 
 * {
@@ -282,7 +433,7 @@ ul {
 }
 
 .padding-section {
-  padding: 0rem 0rem 7rem 0rem;
+  padding: 0rem 0rem 5rem 0rem;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
