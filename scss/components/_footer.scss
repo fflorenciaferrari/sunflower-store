@@ -43,12 +43,18 @@ footer{
                     .icon-ig{
                         padding-right: 1rem;
                         color: $clr-primero ;
+                        &:hover{
+                            color: $clr-quinto;
+                        }
                             }
                             .texto-ig{
                                 font-family: $ff-quarteary;
                                 color: $bg-quinto;
                                 font-size: $fs-tercero;
                                 margin-top: 0.2rem;
+                                &:hover{
+                                    color: $clr-quinto;
+                                }
                             }
                     }
                 }    
@@ -62,6 +68,10 @@ footer{
                         display: inline-block;
                         background-color: $bg-quinto;
                         padding: 0.5rem 2rem;
+                        &:hover{
+                            background-color: $bg-sexto;
+                            color: $clr-primero;
+                        }
                         .text-boton{
                             border-radius: 15%;
                             // padding: 0.5rem 2rem;
@@ -72,11 +82,10 @@ footer{
                     }    
                 }
                 .caja-texto{
-                    margin-left: 2.5rem;
                     .texto-comunidad{
                         color: #fff;
                         text-align: center;
-                        font-size: $fs-tercero;
+                        font-size: $fs-cuarto;
                         font-family: $ff-quarteary;
                     }
                 }

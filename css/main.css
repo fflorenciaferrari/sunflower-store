@@ -22,6 +22,10 @@
     grid-gap: 1rem;
   }
 
+  .comunidad-text texto-comunidad {
+    font-size: 1.125rem;
+  }
+
   footer section .container-nav-footer {
     flex-direction: column;
   }
@@ -493,11 +497,17 @@ footer section .container-ig .caja-ig .link-footer .icon-ig {
   padding-right: 1rem;
   color: #FFFFFF;
 }
+footer section .container-ig .caja-ig .link-footer .icon-ig:hover {
+  color: #D9BCF9;
+}
 footer section .container-ig .caja-ig .link-footer .texto-ig {
   font-family: "Open Sans", sans-serif;
   color: #FFFFFF;
   font-size: 1.25rem;
   margin-top: 0.2rem;
+}
+footer section .container-ig .caja-ig .link-footer .texto-ig:hover {
+  color: #D9BCF9;
 }
 footer section .container-ig .boton-seguinos {
   display: flex;
@@ -511,19 +521,20 @@ footer section .container-ig .boton-seguinos .link-footer {
   background-color: #FFFFFF;
   padding: 0.5rem 2rem;
 }
+footer section .container-ig .boton-seguinos .link-footer:hover {
+  background-color: #AE9CE6;
+  color: #FFFFFF;
+}
 footer section .container-ig .boton-seguinos .link-footer .text-boton {
   border-radius: 15%;
   color: black;
   font-family: "Open Sans", sans-serif;
   font-size: 1.125rem;
 }
-footer section .container-ig .caja-texto {
-  margin-left: 2.5rem;
-}
 footer section .container-ig .caja-texto .texto-comunidad {
   color: #fff;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-family: "Open Sans", sans-serif;
 }
 footer section .container-nav-footer {

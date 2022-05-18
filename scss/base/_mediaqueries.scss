@@ -11,6 +11,15 @@
 //          grid-template-rows: repeat(2,1fr);
 //    }
 //     }
+
+// @media (min-width:450px) {
+//     .texto-comunidad{
+//         font-size: $fs-septimo;
+//     }
+// }
+
+
+
 @media (max-width: $tablet) {
     .contenedor-cards {
         grid-template-columns: repeat(2,1fr) !important;
@@ -34,6 +43,14 @@
         grid-gap: 1rem;
     }
 
+    
+    .comunidad-text texto-comunidad{
+        font-size: $fs-cuarto;
+    }
+
+
+
+        
     footer {
         section {
             .container-nav-footer {
