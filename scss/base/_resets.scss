@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    &::selection {
+        background:$bg-sexto;
+
+    }
 }
 
 body::-webkit-scrollbar {
