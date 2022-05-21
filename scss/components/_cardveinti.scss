@@ -54,6 +54,8 @@ main{
                     justify-content: center;
                     align-items: center;
                     gap: 1rem;
+                    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                    border: none;
                     &:hover {
                         box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
                         cursor: pointer;
@@ -131,6 +133,8 @@ main{
                 background-color: $bg-redes;
                 height: 1.5rem;
                 width: 6rem;
+                transition: all 0.2s ease-in-out;
+                cursor: pointer;
                 &:hover{
                     background-color: $bg-tercero;
                 }
@@ -140,7 +144,8 @@ main{
                         text-align: center;
                         color: $clr-primero;
                         &:hover{
-                            color: $clr-tercero;
+                            // color: $clr-tercero;
+                            color: $clr-sexto;
                         }
                     }
                 } 

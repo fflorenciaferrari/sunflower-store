@@ -1,40 +1,32 @@
-// @media (max-width: 1024px) {
-// .contenedor-cards {
-//     grid-template-columns: repeat(1,1fr);
-//     grid-template-rows: repeat(1,1fr);
-//     }
-// }
-
-//  @media (max-width: 770px) {
-//     .contenedor-cards {
-//          grid-template-columns: repeat(2,1fr);         
-//          grid-template-rows: repeat(2,1fr);
-//    }
-//     }
-
-// @media (min-width:450px) {
-//     .texto-comunidad{
-//         font-size: $fs-septimo;
-//     }
-// }
-
-
+// 
+// 
+// PREDETERMINADOS
 
 @media (max-width: $tablet) {
     .contenedor-cards {
         grid-template-columns: repeat(2,1fr) !important;
     }
+
     .caja-cards{
         grid-template-columns: repeat(2,1fr) !important;
     }
 
-}
+    footer {
+        section {
+            .container-info {
+                display: grid !important;
+                grid-template-columns: repeat(2,1fr);
+                grid-template-rows: repeat(2,1fr);
+                grid-gap: 1rem;
 
-@media (max-width: $mobile){
-    .comunidadTexto{
-        display: none;
+                .caja-info {
+                    width: 100% !important;
+                }
+            }
+        }
     }
 }
+
 @media (max-width: $mobile) {    
     .contenedor-cards {
         grid-template-columns: repeat(1,1fr) !important;
@@ -43,11 +35,10 @@
         grid-template-columns: repeat(1,1fr) !important;
     }
 
-    .container-info {
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(4,1fr);
-        grid-gap: 1rem;
-    }
+    
+
+    
+
     .link-wpp{
         .wpp{
             display: none;
@@ -59,9 +50,14 @@
     }
 
 
-        
     footer {
         section {
+            .container-info {
+                grid-template-columns: repeat(1,1fr);
+                grid-template-rows: repeat(4,1fr);
+                grid-gap: 1rem;
+            }
+            
             .container-nav-footer {
                 flex-direction: column;
                 .caja-tienda {
@@ -89,13 +85,12 @@
     }
 }
 
+// 
+// 
+// EXCEPCIONES
+
 @media (max-width: 576px) {
-    .container-info {
-        display: grid !important;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
-        grid-gap: 1rem;
-    }
+    
 }
 
 @media (max-width: 1018px){

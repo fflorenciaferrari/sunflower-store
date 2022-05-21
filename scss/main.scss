@@ -1,13 +1,10 @@
 @import "base/var";
 @import "base/mixin";
-@import "base/extend";
-@import"base/mapas";
-@import "base/mediaqueries";
+@import "base/resets";
 @import "components/wpp.scss";
-@import "components/home";
 @import "components/header";
+@import "components/home";
 @import "components/cardsdoce";
 @import "components/cardveinti";
-@import "base/resets";
-@import "components/main";
 @import"components/footer";
+@import "base/mediaqueries";
