@@ -208,11 +208,11 @@
     max-height: fit-content;
     letter-spacing: 2px;
     .copyright-info {
-        font-size: $fs-quinto;
+        font-size: $fs-septimo;
         font-family: $ff-terceary;
-        font-weight: weight(bold);
+        font-weight: weight(medium);
         font-style: italic;
-        background: linear-gradient(219deg,
+        background: linear-gradient(120deg,
             $mc-1 19%,
             transparent 19%, transparent 20%,
             $mc-2 20%, $mc-2 39%,

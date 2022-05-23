@@ -204,7 +204,7 @@ header .cartel-envio {
   color: #FFFFFF;
 }
 header .cartel-envio .cartel-p {
-  font-size: 0.8rem;
+  font-size: 0.625rem;
 }
 header .navbar {
   display: flex;
@@ -315,14 +315,9 @@ header .navbar .offcanvas-body .navbar-nav .nav-item .nav-link dropdown-toggle .
 .title .title-text {
   font-family: "Poppins", sans-serif;
   color: #141314;
-  font-size: 3.125rem;
-  font-weight: 600;
+  font-size: 1.875rem;
+  font-weight: 500;
   text-align: center;
-  text-shadow: red 0 0, cyan 0 0;
-  transition: text-shadow 200ms;
-}
-.title .title-text:hover {
-  text-shadow: red -6px 0, cyan 6px 0;
 }
 
 .contenedor-cards {
@@ -794,17 +789,17 @@ main section .container-cards .caja-cards .caja-ver-mas .enlace-ver-mas .p-ver-m
   letter-spacing: 2px;
 }
 .copyright .copyright-info {
-  font-size: 0.938rem;
+  font-size: 0.625rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-style: italic;
-  background: linear-gradient(219deg, #186cb8 19%, transparent 19%, transparent 20%, #2a9a9f 20%, #2a9a9f 39%, transparent 39%, transparent 40%, #f1b211 40%, #f1b211 59%, transparent 59%, transparent 60%, #e83611 60%, #e83611 79%, transparent 79%, transparent 80%, #f9002f 80%, #f9002f 99%, transparent 99%, transparent 100%);
+  background: linear-gradient(120deg, #68409B 19%, transparent 19%, transparent 20%, #1b1b1b 20%, #1b1b1b 39%, transparent 39%, transparent 40%, #9763D9 40%, #9763D9 59%, transparent 59%, transparent 60%, #1b1b1b 60%, #1b1b1b 79%, transparent 79%, transparent 80%, #68409B 80%, #68409B 99%, transparent 99%, transparent 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
 .copyright .copyright-icon {
-  color: #186cb8;
+  color: #68409B;
 }
 
 .cuidados {
@@ -830,7 +825,7 @@ main section .container-cards .caja-cards .caja-ver-mas .enlace-ver-mas .p-ver-m
   color: rgb(27, 27, 27);
   font-size: 3.125rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   padding-top: 3rem;
 }
@@ -930,6 +925,7 @@ main section .container-cards .caja-cards .caja-ver-mas .enlace-ver-mas .p-ver-m
   height: 100%;
   padding: 0.5rem;
   opacity: 0.5;
+  filter: alpha(opacity=50);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
@@ -940,11 +936,12 @@ main section .container-cards .caja-cards .caja-ver-mas .enlace-ver-mas .p-ver-m
   bottom: 30px;
   left: 7.6px;
   background-color: #7e61d7;
-  padding: 1rem 2rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
   color: #fff;
-  font-size: 0.938rem;
+  font-size: 0.75rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
 }
 .contenedor-cards .card .card-info .card-info-p .out-stock__price {
   opacity: 0;

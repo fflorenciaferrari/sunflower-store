@@ -10,6 +10,7 @@
                 height: 100%;
                 padding: 0.5rem;
                 opacity: 0.5;
+                filter:  alpha(opacity=50);
                 backdrop-filter: blur(10px);
                 -webkit-backdrop-filter: blur(10px);
             }
@@ -20,11 +21,12 @@
                 bottom: 30px;
                 left: 7.6px;
                 background-color: $bg-out-stock;
-                padding: 1rem 2rem;
+                padding: 0.2rem 1rem;
+                border-radius: 0rem 0.5rem 0.5rem 0rem;
                 color: $clr-out-stock;
-                font-size: $fs-quinto;
+                font-size: $fs-sexto;
                 font-family: $ff-terceary;
-                font-weight: weight(bold);
+                font-weight: weight(regular);
             }
         }
         .card-info{
