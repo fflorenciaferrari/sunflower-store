@@ -31,136 +31,244 @@
 
 <body class="body">
 
-    <!-- CHAT -->
-    <div>
-        <a class="link-wpp" href="https://web.whatsapp.com/"target=”_blank”>
-        <!-- <img class="wpp" src="img/icons/wpp.svg" alt="wpp"> -->
-        <svg class="wpp" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-heart-fill" viewBox="0 0 16 16">
-            <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15Zm0-9.007c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
-        </svg>
-        </a>
-    </div>
+  <!-- CHAT -->
+  <div>
+      <a class="link-wpp" href="https://web.whatsapp.com/"target=”_blank”>
+      <svg class="wpp" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-heart-fill" viewBox="0 0 16 16">
+          <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15Zm0-9.007c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+      </svg>
+      </a>
+  </div>
 
-    <!-- HEADER -->
-    <header>
-        <!-- cartel -->
-        <div class="cartel-envio">
-        <p class="cartel-p">Con tu compra mayor a $8000 el envio es gratis</p>
-        </div>            
+  <!-- HEADER -->
+  <header>
+    <!-- cartel -->
+    <div class="cartel-envio">
+    <p class="cartel-p">Con tu compra mayor a $8000 el envio es gratis</p>
+    </div>            
 
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-light d-flex">
-            <div class="container-fluid">
-            <div class="caja-like ">
-                <a href="#">
-                <img class="img-like" src="../img/icons/heart.svg" alt="heart">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-light d-flex">
+        <div class="container-fluid">
+        <div class="caja-like ">
+            <a href="#">
+            <img class="img-like" src="../img/icons/heart.svg" alt="heart">
+            </a>
+        </div>
+        <div>
+            <a class="navbar-brand" href="#"></a>
+            <a class="link-logo" href="../index.html">
+            <img class="logo" src="../img/icons/icon.svg" alt="logo">
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="newin.html">New In</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="garagesale.html">Garage Sale</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="cuidados.html">Cuidados</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
                 </a>
-            </div>
-            <div>
-                <a class="navbar-brand" href="#"></a>
-                <a class="link-logo" href="../index.html">
-                <img class="logo" src="../img/icons/icon.svg" alt="logo">
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="productos.html">Jeans - Pantalones</a></li>
+                    <li><a class="dropdown-item" href="productos.html">Abrigos</a></li>
+                    <li><a class="dropdown-item" href="productos.html">Tops - Remeras</a></li>
+                    <form class="d-flex mx-2 my-2">
+                        <input class="form-control me-4" type="search" placeholder="Buscar" aria-label="Search" required>
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                </ul>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Mi Cuenta
                 </a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="#!">Iniciar Sesión</a></li>
+                    <li><a class="dropdown-item" href="#!">Registrarse</a></li>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="newin.html">New In</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="garagesale.html">Garage Sale</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="cuidados.html">Cuidados</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Productos
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                        <li><a class="dropdown-item" href="productos.html">Jeans - Pantalones</a></li>
-                        <li><a class="dropdown-item" href="productos.html">Abrigos</a></li>
-                        <li><a class="dropdown-item" href="productos.html">Tops - Remeras</a></li>
-                        <form class="d-flex mx-2 my-2">
-                            <input class="form-control me-4" type="search" placeholder="Buscar" aria-label="Search" required>
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form>
-                    </ul>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Mi Cuenta
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                        <li><a class="dropdown-item" href="#!">Iniciar Sesión</a></li>
-                        <li><a class="dropdown-item" href="#!">Registrarse</a></li>
-                </div>
-            </div>
-            </div>
-        </nav>
-    </header>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-
-
+  <!-- MAIN -->
   <main>
     <section class="padding-section">
-        <div class="container">
-            
+      <div class="cuidados container">
+
+        <!-- TITLE -->
+        <div class="title">
+          <h2 class="title__info">Cuidados</h2>
+          <img class="title__img" src="../img/icons/women_sitting.svg" alt="Mujer sentada">
         </div>
+
+        <!-- FAQs -->
+        <div class="faq">
+          <div class="faq-title">
+            <h3 class="faq-title__info">- ESTAMPAS - BORDADOS - APLIQUES - LENTEJUELAS -</h3>
+          </div>
+          <div class="faq-parrafo">
+            <ul>
+              <li>
+                <p class="faq-parrafo__info">Lavar a mano con agua fría. No planchar. Secar a la sombra. No centrifurar. Cuidar el roce con superficies porosas. No usar blanqueadores.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq-title">
+            <h3 class="faq-title__info">- TEJIDOS -</h3>
+          </div>
+          <div class="faq-parrafo">
+            <ul>
+              <li>
+                <p class="faq-parrafo__info">Lava tu tejidos a mano con agua fría, usa jabon para prendas delicadas. Es muy
+                  importante secar tus tejidos a la sombra y en plano para que no se deformen.
+                  No centrifugar ni usar secadora.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq-title">
+            <h3 class="faq-title__info">- TRAJES DE BAÑO -</h3>
+          </div>
+          <div class="faq-parrafo">
+            <ul>
+              <li>
+                <p class="faq-parrafo__info">Lavar a mano con agua fría y jabon neutro. Dejar secar en superficie plana a la
+                  sombra. Aconsejamos no guardar húmeda, y luego de su uso enjuagarla con
+                  agua para quitar residuos que dañen el tejido. Las lociones corporales podrían
+                  mancharlos, si esto sucede enjuagar de inmediamo. Recomendamos no usar
+                  trajes de baño de color claro en el mar, la arena puede dañar los tejidos al
+                  entrar en la prenda. Si esto sucede lavar, dejar secar y sacudir.
+                </p>
+              </li>
+              <li>
+                <p class="faq-parrafo__info">
+                  Recordá que es importantísimo cuidar tu bikini para alargarle la vida útil y que pueda mantener sus colores al maximo.
+                </p>                
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq-title">
+            <h3 class="faq-title__info">- JEANS - GABARDINAS -</h3>
+          </div>
+          <div class="faq-parrafo">
+            <ul>
+              <li>
+                <p class="faq-parrafo__info">Lavar del revés y con agua fría. Evitá el lavado en lavarropas. Siempre
+                  es conveniente lavarlos con prendas en tonos similares, ya que
+                  podría desteñir. Secar a la sombra. No centrifugar. No usar
+                  blanqueadores.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq-title">
+            <h3 class="faq-title__info">- ENGOMADOS -</h3>
+          </div>
+          <div class="faq-parrafo">
+            <ul>
+              <li>
+                <p class="faq-parrafo__info">Tus prendas de tela engomada deben limpiarse en seco, no planchar, el
+                  roce con superficies porosas pueden dañarlas, tene cuidado de no
+                  ponerles perfume para ropa.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq-title">
+            <h3 class="faq-title__info">- ALGODÓN PIMA - LINO - LANAS -</h3>
+          </div>
+          <div class="faq-parrafo">
+            <ul>
+              <li>
+                <p class="faq-parrafo__info">Lavar a mano con agua fría. Usar jabones especificos para prendas
+                  delicadas. No planchar. Secar a la sombra. No centrifurar. No usar
+                  blanqueadores.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
 
 
-<!-- FOOTER -->
-<footer>
+  <!-- FOOTER -->
+  <footer>
+
+    <!-- BENEFICIOS -->
     <section class="padding-section p-more">
-      <div class="container-info"> 
-        <div class="caja-info">
-          <svg class="icon-info bi bi-coin" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <div class="container-info cardss"> 
+        <div class="caja-info cardd">
+          <svg class="icon-info card-title bi bi-coin" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
             <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z"/>
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/>
           </svg>
-          <p class="texto-info">30% off abonando en efectivo</p>
+          <p class="texto-info card-title">30% off abonando en efectivo</p>
         </div>
-        <div class="caja-info">
-          <svg class="icon-info bi bi-shield-check" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+
+        <div class="caja-info cardd">
+          <svg class="icon-info card-title bi bi-shield-check" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
             <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
             <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
           </svg>
-          <h5 class="texto-info">Sitio seguro todos tus datos estan protegidos</h5>
+          <h5 class="texto-info card-title">Sitio seguro todos tus datos estan protegidos</h5>
         </div>
-        <div class="caja-info">
-          <svg class="icon-info bi bi-arrow-repeat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+
+        <div class="caja-info cardd">
+          <svg class="icon-info card-title bi bi-arrow-repeat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
             <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
             <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
           </svg>
-          <h5 class="texto-info">Todas tus compras tienen cambio </h5>
+          <h5 class="texto-info card-title">Todas tus compras tienen cambio </h5>
         </div>
-        <div class="caja-info">
-          <svg class="icon-info bi bi-truck" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+
+        <div class="caja-info cardd">
+          <svg class="icon-info card-title bi bi-truck" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
             <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
           </svg>
-          <h5 class="texto-info">Envio a todo el pais</h5>
+          <h5 class="texto-info card-title">Envio a todo el pais</h5>
         </div>
+
       </div>
     </section>
 
+    <!-- COMUNIDAD -->
     <section>
       <div class="container-ig">
         <div class="caja-ig">
           <a class="link-footer" href="https://www.instagram.com/"target=”_blank”>
-          <!-- <img class="icon-ig" src="img/icons/ig.svg" alt="ig"> -->
           <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-instagram icon-ig" viewBox="0 0 16 16">
             <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
           </svg>
@@ -169,15 +277,16 @@
         </div>
         <div class="boton-seguinos">
           <a class="link-footer" href="https://www.instagram.com/"target=”_blank”>
-          <p class="text-boton"> SEGUINOS </p>
+          <p class="text-boton">SEGUINOS</p>
           </a>
         </div>
         <div class="caja-texto">
-          <p class="comunidadTexto"> Se parte de la #SUNFLOWERCREW</p>
+          <p class="comunidadTexto">Se parte de la #SUNFLOWERCREW</p>
         </div>
       </div>
     </section>
 
+    <!-- MAIN FOOTER -->
     <section>
       <div class="container-nav-footer">
         <div class="caja-tienda">
@@ -232,7 +341,6 @@
             </li>
             <li class="caja-nav">
               <a class="link-footer" href="https://www.instagram.com/" target=”_blank”>
-                <!-- <img class="img-footer" src="img/icons/ig.svg" alt="Instragram"> -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-instagram img-footer" viewBox="0 0 16 16">
                   <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
                 </svg>
@@ -240,7 +348,6 @@
             </li>
             <li class="caja-nav">
               <a class="link-footer" href="https://www.pinterest.es/" target=”_blank”>
-                <!-- <img  class="img-footer" src="img/icons/pinterest.svg" alt="Pinterest"> -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-pinterest img-footer" viewBox="0 0 16 16">
                   <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
                 </svg>
@@ -250,10 +357,24 @@
         </div>
       </div>
     </section>
+
+    <!-- COPYRIGHT -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="copyright">
+            <p class="copyright-info">Hecho con amor por Flor</p>
+            <svg class="copyright-icon bi bi-balloon-heart-fill" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8.49 10.92C19.412 3.382 11.28-2.387 8 .986 4.719-2.387-3.413 3.382 7.51 10.92l-.234.468a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2.376 2.376 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.235-.468ZM6.726 1.269c-1.167-.61-2.8-.142-3.454 1.135-.237.463-.36 1.08-.202 1.85.055.27.467.197.527-.071.285-1.256 1.177-2.462 2.989-2.528.234-.008.348-.278.14-.386Z"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
   </footer>
 
   <!-- bootstrap scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous" defer></script>
 </body>
 </html>

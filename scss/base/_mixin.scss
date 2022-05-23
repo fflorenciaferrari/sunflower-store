@@ -1,14 +1,19 @@
-// @mixin flexible($dis, $just){
-//     display: $dis;
-//     justify-content: $just;
-// }
-
-// @mixin position($dis, $just ,$alig){
-//     display: $dis;
-//     justify-content: $just;
-//     align-items: $alig;
-// }
-
 @function weight ($weight-name) {
     @return map-get($font-weight, $weight-name);
+}
+
+@mixin flex-center($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+@mixin flex-around($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
 }

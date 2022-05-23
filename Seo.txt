@@ -20,5 +20,3 @@ open graph
 agregue etiquetas meta para poder tener un diseño mas personalizado con mucha info para cuando nuestro usuarios
 comparten nuestro sitio por redes sociales
 
-
-

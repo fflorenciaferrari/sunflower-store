@@ -1,7 +1,4 @@
-// 
-// 
 // PREDETERMINADOS
-
 @media (max-width: $tablet) {
     .contenedor-cards {
         grid-template-columns: repeat(2,1fr) !important;
@@ -11,23 +8,67 @@
         grid-template-columns: repeat(2,1fr) !important;
     }
 
-    footer {
-        section {
-            .container-info {
-                display: grid !important;
-                grid-template-columns: repeat(2,1fr);
-                grid-template-rows: repeat(2,1fr);
-                grid-gap: 1rem;
-
-                .caja-info {
-                    width: 100% !important;
+    .cuidados {
+        .title {
+            .title__info {
+                font-size: $fs-primero;
+            }
+            .title__img {
+                width: 128px;
+            }
+        }
+        .faq {
+            .faq-title {
+                .faq-title__info {
+                    font-size: $fs-tercero;
+                    font-weight: weight(medium);
+                }
+            }
+            .faq-parrafo {
+                ul {
+                    li {
+                        .faq-parrafo__info {
+                            font-size: $fs-sexto;
+                        }
+                    }
                 }
             }
         }
     }
+        
+    .container-info {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 1rem;
+
+        .caja-info {
+            width: 100%;
+        }
+    }
 }
 
-@media (max-width: $mobile) {    
+@media (max-width: $mobile) {
+    .beneficios {
+        display: none;
+    }
+
+    .heroSection {
+        padding-top: 4rem;
+        display: none;
+    }
+
+    .cuidados {
+        .title {
+            .title__info {
+                width: 100%;
+            }
+            .title__img {
+                display: none;
+            }
+        }
+    }
+
     .contenedor-cards {
         grid-template-columns: repeat(1,1fr) !important;
     }
@@ -35,32 +76,40 @@
         grid-template-columns: repeat(1,1fr) !important;
     }
 
-    
-
-    
-
     .link-wpp{
         .wpp{
             display: none;
         }
     }
-
-    .caja-home{
-        height: 100%;
+            
+    .container-ig {
+        .caja-texto {
+            .comunidadTexto {
+                font-size: $fs-quinto;
+                display: none;
+            }
+        }
     }
-
-
+    .container-info {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-gap: 1rem;
+    }
+    
     footer {
         section {
-            .container-info {
-                grid-template-columns: repeat(1,1fr);
-                grid-template-rows: repeat(4,1fr);
-                grid-gap: 1rem;
-            }
-            
             .container-nav-footer {
                 flex-direction: column;
+                row-gap: 2rem;
                 .caja-tienda {
+                    border-top: 1px solid $bg-soft;
+                    border-bottom: 1px solid $bg-soft;
+                    width: 60%;
+                    margin: auto;
+                    padding: 1rem 0rem;
+                    .title-nav {
+                        text-align: center;
+                    }
                     ul {
                         li {
                             text-align: center;
@@ -68,14 +117,25 @@
                     }
                 }
                 .caja-empresa {
+                    border-bottom: 1px solid $bg-soft;
+                    width: 60%;
+                    margin: auto;
+                    padding-bottom: 1rem;
+                    .title-nav {
+                        text-align: center;
+                    }
                     ul {
                         li {
                             text-align: center;
                         }
                     }
                 }
-
+        
                 .caja-redes {
+                    border-bottom: 1px solid $bg-soft;
+                    width: 60%;
+                    margin: auto;
+                    padding-bottom: 1rem;
                     ul {
                         justify-content: center;
                     }
@@ -84,30 +144,3 @@
         }
     }
 }
-
-// 
-// 
-// EXCEPCIONES
-
-@media (max-width: 576px) {
-    
-}
-
-@media (max-width: 1018px){
-    .caja-ig{
-        .ig{
-            .text-ig{
-                font-size: $fs-quinto;
-                text-align: center;
-            }
-            
-        }
-    }
-}
-
-@media (max-width: 350px){
-    .cartel-p{
-        display: none;
-    }
-}
-

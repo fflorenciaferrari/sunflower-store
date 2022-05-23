@@ -1,306 +1,234 @@
-footer{
-    width: 100%;
-    .p-more {
-        padding-top: 7rem;
-    }
-
-    section{
-        width: 100%;
-            .container-info{
-                max-width: 980px;
-                margin: auto;
-                display: flex;
-                justify-content: space-around;
-                border-top: 1px solid $bg-soft;
-                // border-bottom: 1px solid rgba(159, 159, 159, 0.3);
-                padding: 5rem 0rem;
-                .caja-info{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                    gap: 1rem;
-                    width: 20%;
-                    height: auto;
-                    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-                    padding: 1rem 1.5rem;
-                    .icon-info{
-                        width: 2rem;
-                        height: 2rem;
-                        color: $bg-segundo;
-                    }
-                    .texto-info{
-                        font-size: $fs-sexto;
-                        font-family: $ff-terceary;
-                        text-align: center;
-                    }
-                }
-            }
-            .container-ig{
-                width: 100%;
-                background-color: $bg-redes;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap:1rem;
-                padding-top: 1rem;
-                padding-bottom: 1rem;
-                .caja-ig{
-                    .link-footer{
-                        text-decoration: none;
-                        display: flex;
-                        color: #fff;
-
-                        .icon-ig{
-                            padding-right: 1rem;
-                            color: $clr-primero ;
-                        }
-
-                        &:hover{
-
-                            .icon-ig{
-                                transition: all 0.2s ease-in-out;
-
-                                color: $clr-quinto;
-                            }
-                            .texto-ig {
-                                transition: all 0.2s ease-in-out;
-                                color: $clr-quinto;
-                            }
-                        }
-
-                        .texto-ig{
-                            font-family: $ff-quarteary;
-                            color: $bg-quinto;
-                            font-size: $fs-tercero;
-                            margin-top: 0.2rem;
-                        }
-                    }
-                }    
-                .boton-seguinos{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    .link-footer{
-                        text-decoration: none;
-                        border-radius: 2rem;
-                        display: inline-block;
-                        background-color: $bg-quinto;
-                        padding: 0.5rem 2rem;
-                        transition: all 0.2s ease-in-out;
-                        &:hover{
-                            background-color: $bg-sexto;
-                            color: $clr-primero;
-                        }
-                        .text-boton{
-                            border-radius: 15%;
-                            // padding: 0.5rem 2rem;
-                            color:black;
-                            font-family: $ff-quarteary;
-                            font-size: $fs-cuarto;
-                        }
-                    }    
-                }
-                .caja-texto{
-                    .comunidadTexto{
-                        color: #fff;
-                        text-align: center;
-                        font-size: $fs-cuarto;
-                        font-family: $ff-quarteary;
-                    }
-                }
-            }
-        .container-nav-footer{
-            width: 100%;
-            background-color: $bg-tercero;
-            display: flex;
-            padding-bottom: 2rem;
-            margin-bottom: 0px;
-            justify-content: space-around;
-            padding-top: 2rem ;
-            .caja-tienda{
-                justify-content: center;
-                align-items: center;
-                .title-nav{
-                    font-family: $ff-terceary;
-                    text-align: center;
-                    margin-bottom: 1rem;
-                    font-size: $fs-cuarto;
-                }
-                .contenedor-nav-footer {
-                    list-style-type: none;
-                    .caja-nav{
-                        .link-footer{
-                            color: $clr-sexto;
-                            font-family: $ff-terceary;
-                            text-decoration: none;
-                            font-size: $fs-sexto;
-                            &:hover{
-                                color: $clr-segundo;
-                            }
-                        }
-                    }
-                }
-            }
-            .caja-empresa{
-                justify-content: center;
-                align-items: center;
-                .title-nav{
-                    font-family: $ff-terceary;
-                    text-align: center;
-                    margin-bottom: 1rem;
-                    font-size: $fs-cuarto;
-                }
-                .contenedor-nav-footer{
-                    list-style-type: none;
-                    .caja-nav{
-                        .link-footer{
-                            color: $clr-sexto;
-                            font-family: $ff-terceary;
-                            text-decoration: none;
-                            font-size: $fs-sexto;
-                            &:hover{
-                                color: $clr-segundo;
-                            }
-                        }
-                    }
-                }
-            }
-            .caja-redes{
-                justify-content: center;
-                align-items: center;
-                .title-nav{
-                    font-family: $ff-terceary;
-                    text-align: center;
-                    margin-bottom: 1rem;
-                    font-size: $fs-cuarto;
-                }
-
-                .contenedor-nav-footer{
-                    display: flex;
-                    gap: 1rem;
-                    list-style-type: none;
-                    padding: 0rem;
-                    .caja-nav{
-                        .link-footer{
-                            text-decoration: none;
-                            color: $clr-tercero;
-                            width: 35px;
-                            height: 35px;
-                            .img-footer{
-                                height: 1.5rem;
-                                width: 1.5rem;
-                                color: $clr-tercero;
-                                transition: all 0.2s ease-in-out;
-                                &:hover{
-                                    color: $clr-segundo;
-                                }
-                            }
-                        }
-                    }
-
-                }
-            }
-            
-        }
-    }    
+.p-more {
+    padding-top: 7rem;
 }
 
+.container-info{
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid $bg-soft;
+    padding: 5rem 0rem;
+    .caja-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        width: 20%;
+        height: auto;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        padding: 1rem 1.5rem;
+        .icon-info{
+            width: 2rem;
+            height: 2rem;
+            color: $bg-segundo;
+        }
+        .texto-info{
+            font-size: $fs-sexto;
+            font-family: $ff-terceary;
+            text-align: center;
+        }
+    }
+}
 
+.container-ig{
+    width: 100%;
+    background-color: $bg-redes;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    .caja-ig{
+        .link-footer{
+            text-decoration: none;
+            display: flex;
+            color: #fff;
 
+            .icon-ig{
+                padding-right: 1rem;
+                color: $clr-primero ;
+            }
 
-//     .espacio{
-//         background-color: $color-body;
-//         width: auto;
-//         height: 10rem;
-//         }
-//     .contenedor-footer{
-//         width: 100vw;
-//         height: 70vh;
+            &:hover{
 
-//         .caja-ig{
-            
-//             .ig{
-//                 height: 30vh;
-//                 background-color: $col-blanco;
-//                 display: flex;
-//                 justify-content: center;
-//                 align-items: center;
-//                 flex-direction: column;
-//                 gap: 2rem;
-                
-//                     .ig-redes{
-//                         text-decoration: none;
-//                         color: $col-negro;
-//                         font-family: 'Poppins', sans-serif;
-//                         font-weight: weight(light);
-//                         & :hover{
-//                             color: $bg-segundo;
-//                             transition: all 0.2s ease-in-out;    
-//                             }
-//             }
-//         }
+                .icon-ig{
+                    transition: all 0.2s ease-in-out;
 
-//     }
+                    color: $clr-quinto;
+                }
+                .texto-ig {
+                    transition: all 0.2s ease-in-out;
+                    color: $clr-quinto;
+                }
+            }
 
-//     .section-nav{
-//         background-color: #EAEAEA;
-//         height: 40vh;
-//         .caja-nav{
-//             .navegador{
-//                 text-align:left;
-//                 padding-top: 2rem;
-//                 margin-left: 1rem;
-//                 text-decoration: none;
-//                 list-style-type: none;
-//                 color: $col-negro;
-//                 font-family: $ff-secondary;
-//                 font-weight: weight(light);
-//                     .nav-footer{
-//                         margin-top: 0.5rem;
-//                         .text-enlace{
-//                             text-decoration: none;
-//                             color: black;
-//                             font-family: $ff-secondary;
-//                             font-weight: weight(light);
-//                             &:hover{
-//                                 color: $bg-segundo;
-//                                 transition: all 0.2s ease-in-out;
-//                                 }
-//                         }
-//                     }    
-            
-//                 }
-//             }
-    
-//         .caja-redes{
-//             margin-top: 2rem;
-//             margin-left: 1rem;
-//             .redes{
-//                 text-decoration: none;
-//                 list-style-type: none;
-//                 display: flex;
-//                 gap: 1rem;
-        
+            .texto-ig{
+                font-family: $ff-quarteary;
+                color: $bg-quinto;
+                font-size: $fs-tercero;
+                margin-top: 0.2rem;
+            }
+        }
+    }    
+    .boton-seguinos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .link-footer{
+            text-decoration: none;
+            border-radius: 2rem;
+            display: inline-block;
+            background-color: $bg-quinto;
+            padding: 0.5rem 2rem;
+            transition: all 0.2s ease-in-out;
+            &:hover{
+                background-color: $bg-sexto;
+                color: $clr-primero;
+            }
+            .text-boton{
+                border-radius: 15%;
+                color:black;
+                font-family: $ff-quarteary;
+                font-size: $fs-cuarto;
+            }
+        }    
+    }
+    .caja-texto{
+        .comunidadTexto{
+            color: #fff;
+            text-align: center;
+            font-size: $fs-cuarto;
+            font-family: $ff-quarteary;
+        }
+    }
+}
 
-//             }
-//         }        
-//     }    
-// }
+.container-nav-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    padding-bottom: 2rem;
+    padding-top: 2rem ;
+    background-color: $bg-tercero;
+    .caja-tienda{
+        justify-content: center;
+        align-items: center;
+        .title-nav{
+            font-family: $ff-terceary;
+            text-align: start;
+            margin-bottom: 1rem;
+            font-size: $fs-cuarto;
+        }
+        .contenedor-nav-footer {
+            list-style-type: none;
+            .caja-nav{
+                .link-footer{
+                    color: $clr-sexto;
+                    font-family: $ff-terceary;
+                    text-decoration: none;
+                    font-size: $fs-sexto;
+                    &:hover{
+                        color: $clr-segundo;
+                    }
+                }
+            }
+        }
+    }
+    .caja-empresa{
+        justify-content: center;
+        align-items: center;
+        .title-nav{
+            font-family: $ff-terceary;
+            text-align: start;
+            margin-bottom: 1rem;
+            font-size: $fs-cuarto;
+        }
+        .contenedor-nav-footer{
+            list-style-type: none;
+            .caja-nav{
+                .link-footer{
+                    color: $clr-sexto;
+                    font-family: $ff-terceary;
+                    text-decoration: none;
+                    font-size: $fs-sexto;
+                    &:hover{
+                        color: $clr-segundo;
+                    }
+                }
+            }
+        }
+    }
+    .caja-redes{
+        justify-content: center;
+        align-items: center;
+        .title-nav{
+            font-family: $ff-terceary;
+            text-align: center;
+            margin-bottom: 1rem;
+            font-size: $fs-cuarto;
+        }
 
-// }
+        .contenedor-nav-footer{
+            display: flex;
+            gap: 1rem;
+            list-style-type: none;
+            padding: 0rem;
+            .caja-nav{
+                .link-footer{
+                    text-decoration: none;
+                    color: $clr-tercero;
+                    width: 35px;
+                    height: 35px;
+                    .img-footer{
+                        height: 1.5rem;
+                        width: 1.5rem;
+                        color: $clr-tercero;
+                        transition: all 0.2s ease-in-out;
+                        &:hover{
+                            color: $clr-segundo;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
-// primero poner en la clase que queres que pase esto la propiedad animation-name: pito;
-
-// @keyframes pito {
-//     0%{
-//         transform: translateX(0);
-//     }
-//     50%{
-//         transform: translateX(1);
-//     }
-//     100%{
-//         transform: translateX(2);
-//     }
-// }    
+.copyright {
+    @include flex-center(row);
+    background-color: $bg-tercero;
+    padding: 1.5rem;
+    column-gap: 0rem;
+    height: auto;
+    max-height: fit-content;
+    letter-spacing: 2px;
+    .copyright-info {
+        font-size: $fs-quinto;
+        font-family: $ff-terceary;
+        font-weight: weight(bold);
+        font-style: italic;
+        background: linear-gradient(219deg,
+            $mc-1 19%,
+            transparent 19%, transparent 20%,
+            $mc-2 20%, $mc-2 39%,
+            transparent 39%, transparent 40%,
+            $mc-3 40%, $mc-3 59%,
+            transparent 59%, transparent 60%,
+            $mc-4 60%, $mc-4 79%,
+            transparent 79%, transparent 80%,
+            $mc-5 80%, $mc-5 99%,
+            transparent 99%, transparent 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    .copyright-icon {
+        color: $mc-1;
+    }
+}

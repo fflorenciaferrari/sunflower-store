@@ -1,7 +1,4 @@
-
-// colores
-
-// fondo
+// BACKGROUND COLORS
 $bg-primero: #EFE2FC;
 $bg-segundo: #7e61d7;
 $bg-tercero:#d9bcf9;
@@ -11,9 +8,9 @@ $bg-sexto: #AE9CE6;
 $bg-redes:#141314; 
 $bg-footer: #EAEAEA;
 $bg-soft: rgba(159, 159, 159, 0.3);
+$bg-out-stock: #7e61d7;
 
-
-// letras
+// LETTER COLORS
 $clr-primero: #FFFFFF;
 $clr-segundo: #EFE2FC;
 $clr-tercero: rgb(27, 27, 27);
@@ -22,13 +19,16 @@ $clr-quinto: #D9BCF9;
 $clr-sexto:#F8F9FA;
 $clr-sexto:#141314;
 $clr-septimo:#EAEAEA;
+$clr-out-stock: #fff;
 
+// MULTICOLOR
+$mc-1: #186cb8;
+$mc-2: #2a9a9f;
+$mc-3: #f1b211;
+$mc-4: #e83611;
+$mc-5: #f9002f;
 
-
-// size
-
-
-// font-size
+// FONT-SIZE
 $fs-h1: 3.75rem;
 $fs-titles: 3.125rem;
 $fs-primero: 2.5rem;
@@ -38,17 +38,15 @@ $fs-cuarto: 1.125rem;
 $fs-quinto: 0.938rem;
 $fs-sexto: 0.75rem;
 $fs-septimo:0.625rem;
-$fs-octavo:0.313 rem;
+$fs-octavo:0.313rem;
 
-// font-family
+// FONT-FAMILY
 $ff-primary: 'Aleo', serif;
 $ff-secondary: 'Roboto', sans-serif;
 $ff-terceary: 'Poppins', sans-serif;
 $ff-quarteary:'Open Sans', sans-serif;
 
-
-
-// font-weight
+// FONT-WEIGHT
 $font-weight: (
     "light": 300,
     "regular": 400,
@@ -57,7 +55,7 @@ $font-weight: (
     "bolder": 700
 );
 
-// media-queries
+// MEDIA-QUERIES
 $desktop: 1024px;
 $tablet: 768px;
 $mobile: 425px;

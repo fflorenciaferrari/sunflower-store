@@ -1,0 +1,147 @@
+// CARDSDOCE
+.contenedor-cards{
+    .card{
+        .out-stock {
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                padding: 0.5rem;
+                opacity: 0.5;
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+            }
+            &::after {
+                content: 'Sin stock';
+                position: absolute;
+                display: block;
+                bottom: 30px;
+                left: 7.6px;
+                background-color: $bg-out-stock;
+                padding: 1rem 2rem;
+                color: $clr-out-stock;
+                font-size: $fs-quinto;
+                font-family: $ff-terceary;
+                font-weight: weight(bold);
+            }
+        }
+        .card-info{
+            .card-info-p{
+                .out-stock__price{
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
+
+
+// CARDVEINTI
+.container-cards{
+    .caja-cards{
+        .cards{
+            .out-stock {
+                position: relative;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    padding: 0.5rem;
+                    opacity: 0.5;
+                    backdrop-filter: blur(10px);
+                    -webkit-backdrop-filter: blur(10px);
+                }
+                &::after {
+                    content: 'Sin stock';
+                    position: absolute;
+                    display: block;
+                    bottom: 30px;
+                    left: 7.6px;
+                    background-color: $bg-out-stock;
+                    padding: 1rem 2rem;
+                    color: $clr-out-stock;
+                    font-size: $fs-quinto;
+                    font-family: $ff-terceary;
+                    font-weight: weight(bold);
+                }
+            }
+            .card-info{
+                .card-info-p{
+                    .out-stock__price {
+                        opacity: 0;
+                    }
+                }
+                .card-info-buttons {
+                    .caja-bag {
+                        &:hover{
+                            cursor: pointer;
+                            transition: all 0.2s ease-in-out;
+                            background-color: $bg-segundo;
+                            transition: all 0.2s ease-in-out;
+                            padding: .5rem;
+                            .img-bag {
+                                color: $bg-tercero;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// INDEX CAROUSEL
+.owl-carousel {
+    .item {
+        .card {
+            .out-stock {
+                position: relative;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    padding: 0.5rem;
+                    opacity: 0.5;
+                    backdrop-filter: blur(10px);
+                    -webkit-backdrop-filter: blur(10px);
+                }
+                &::after {
+                    content: 'Sin stock';
+                    position: absolute;
+                    display: block;
+                    bottom: 30px;
+                    left: 7.6px;
+                    background-color: $bg-out-stock;
+                    padding: 1rem 2rem;
+                    color: $clr-out-stock;
+                    font-size: $fs-quinto;
+                    font-family: $ff-terceary;
+                    font-weight: weight(bold);
+                }
+            }
+            .card-info{
+                .card-info-p{
+                    .out-stock__price {
+                        opacity: 0;
+                    }
+                }
+                .card-info-buttons {
+                    .caja-bag {
+                        &:hover{
+                            cursor: pointer;
+                            transition: all 0.2s ease-in-out;
+                            color: $bg-tercero;
+                            background-color: $bg-segundo;
+                            transition: all 0.2s ease-in-out;
+                            padding: .5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+.cuidados {
+    @include flex-center(column);
+    row-gap: 6rem;
+
+    .title {
+        width: 100%;
+        height: auto;
+        @include flex-center(row);
+        column-gap: 5%;
+        .title__info {
+            width: 35%;
+            color: $clr-tercero;
+            font-size: $fs-titles;
+            font-family: $ff-terceary;
+            font-weight: weight(bold);
+            text-align: center;
+            padding-top: 3rem;
+        }
+
+        .title__img {
+            width: 60%;
+            max-width: 144px;
+            height: auto;
+            display: block;
+        }
+    }
+    
+    .faq {
+        width: 100%;
+        max-width: 980px;
+        margin: auto;
+        padding: 1.875rem;
+        @include flex-center(column);
+        row-gap: 1rem;
+        background-color: $bg-quarto;
+        border-radius: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+        .faq-title {
+            @include flex-center(row);
+
+            .faq-title__info {
+                color: $clr-tercero;
+                font-size: $fs-segundo;
+                font-family: $ff-terceary;
+                font-weight: weight(regular);
+            }
+        }
+
+        .faq-parrafo {
+            @include flex-center(row);
+
+            ul {
+                padding-left: 2rem;
+                li {
+                    padding-bottom: 1rem;
+                    list-style-type: circle;
+
+                    .faq-parrafo__info {
+                        color: $clr-tercero;
+                        font-size: $fs-quinto;
+                        font-family: $ff-terceary;
+                        font-weight: weight(regular);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.title {
+    width: 100%;
+    height: auto;
+    @include flex-center(row);
+    column-gap: 5%;
+    .title__info {
+        width: 35%;
+        color: $clr-tercero;
+        font-size: $fs-titles;
+        font-family: $ff-terceary;
+        font-weight: weight(bold);
+        text-align: center;
+        padding-top: 3rem;
+        text-shadow: red 0 0, cyan 0 0;
+        transition: text-shadow 200ms;
+        &:hover {
+            text-shadow: red -6px 0, cyan 6px 0;
+        }
+    }
+
+    .title__img {
+        width: 60%;
+        max-width: 144px;
+        height: auto;
+        display: block;
+    }
+}

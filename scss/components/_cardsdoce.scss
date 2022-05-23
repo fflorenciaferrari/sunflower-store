@@ -1,118 +1,107 @@
-main{
-    width: 100%;
-    // .title-home{
-    //     font-family: $ff-terceary;
-    //     color: $clr-sexto;
-    //     text-align: center;
-    //     padding-top: 2.5rem;
-    // }
-    section{
-        .title {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            height: auto;
-            padding: 6rem 0rem 3rem 0rem;
-            .title-text {
-                font-family: $ff-terceary;
-                color: $clr-sexto;
-                font-size: $fs-segundo;
-                font-weight: weight(regular);
-                text-align: center;
-            }
-        }
 
-        .contenedor-cards{
-            width: 100%;
-            display: grid;
-            grid-template-columns: repeat(4,1fr);
-            grid-template-rows: repeat(3,1fr);
-            padding: 0rem 2rem;
-            row-gap: 7rem;
-            column-gap: 1rem;
-            max-width: 1080px;
-            margin: auto;
-            .card{
-                position: static;
-                flex-wrap: wrap;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 1rem;
-                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1.2px;
-                border: none;
-                &:hover {
-                    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-                    cursor: pointer;
-                    transition: all 0.2s ease-in-out;
-                }
-                .container-img{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    border-bottom: 1px solid $bg-soft;
-                    .card-img{
-                        padding: 1rem;
-                    }
-                    .caja-bag{
-                        width: 2.1rem;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        flex-direction: column;
-                        background-color: $bg-tercero;
-                        border-radius: 1rem;
-                        &:hover{
-                            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-                            cursor: pointer;
-                            transition: all 0.2s ease-in-out;
-                            background-color: $clr-cuarto;
-                        }
-                        .img-bag{
-                            justify-content: center;
-                            align-items: center;
-                            width: 1rem;
-                            height: 1.5rem; 
-                            }
-                        
-                    }
-                }    
-                .card-info{
-                    display: flex;
-                    justify-content: space-between;
-                    padding: 1rem;
-                    width: 100%;
-                    .card-info-p{
-                        padding: 0.5 rem 0 rem;
-                        gap: 1rem;
-                        display: flex;
-                        flex-direction: column;
-                        .info-n{
-                            font-family: $ff-terceary;
-                            color: $clr-quinto;
-                            font-size: $fs-quinto;
-                            font-weight: weight(regular);
-                        }
-                        .info-p{
-                            font-family: $ff-quarteary;
-                            font-size: $fs-quinto;
-                            font-weight: weight(medium);
-                            color: $clr-sexto;
-                            }
-                        }
-                    .card-icon{
-                        display: flex;
-                        align-items: flex-end;
-                        &:hover{
-                            color: $bg-tercero;
-                            transition: all 0.2s ease-in-out;
-                            }
-                        }    
-                    }
-            }
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 7rem 0rem 3rem 0rem;
+    .title-text {
+        font-family: $ff-terceary;
+        color: $clr-sexto;
+        font-size: $fs-titles;
+        font-weight: weight(bold);
+        text-align: center;
+        text-shadow: red 0 0, cyan 0 0;
+        transition: text-shadow 200ms;
+        &:hover {
+            text-shadow: red -6px 0, cyan 6px 0;
         }
-    }    
-}    
+    }
+}
+
+.contenedor-cards{
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    padding: 0rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 7rem;
+    column-gap: 1rem;
+    .card{
+        position: static;
+        flex-wrap: wrap;
+        @include flex-center(row);
+        gap: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1.2px;
+        border: none;
+        border-radius: 0.25rem;
+
+        &:hover {
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+        }
+        .container-img{
+            @include flex-center(column);
+            border-bottom: 1px solid $bg-soft;
+            .card-img{
+                padding: 0.5rem;
+            }
+        }    
+        .card-info{
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+            width: 100%;
+            .card-info-p{
+                padding: 0.5rem 0rem;
+                gap: 1rem;
+                display: flex;
+                flex-direction: column;
+                .info-n{
+                    font-family: $ff-terceary;
+                    color: $clr-quinto;
+                    font-size: $fs-quinto;
+                    font-weight: weight(regular);
+                }
+                .info-p{
+                    font-family: $ff-quarteary;
+                    font-size: $fs-quinto;
+                    font-weight: weight(medium);
+                    color: $clr-sexto;
+                }
+            }
+            .card-info-buttons {
+                @include flex-around(column);
+                padding: 0.5rem 0rem;
+                .card-icon{
+                    display: flex;
+                    align-items: flex-end;
+                    &:hover{
+                        color: $bg-segundo;
+                        transition: all 0.2s ease-in-out;
+                    }
+                }
+                .caja-bag{
+                    width: 2.1rem;
+                    @include flex-center(column);
+                    color: $clr-tercero;
+                    border-radius: 50%;
+                    &:hover{
+                        cursor: pointer;
+                        transition: all 0.2s ease-in-out;
+                        color: $bg-tercero;
+                        background-color: $bg-segundo;
+                        transition: all 0.2s ease-in-out;
+                        padding: .5rem;
+                    }
+                }
+            }   
+        }
+    }
+}

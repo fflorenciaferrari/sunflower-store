@@ -1,0 +1,17 @@
+.cardss {
+    .cardd {
+        background-color: $bg-quinto;
+        transform-style: preserve-3d;
+        will-change: transform;
+        transition: transform .5s;
+        &:hover {
+            transform: translateZ(10px) rotateX(20deg) rotateY(30deg);
+            .card-title {
+                transform: translateZ(50px);
+            }
+        }
+        .card-title {
+            transition: transform .5s;
+        }
+    }
+}
