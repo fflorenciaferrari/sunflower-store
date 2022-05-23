@@ -823,7 +823,7 @@ main section .container-cards .caja-cards .caja-ver-mas .enlace-ver-mas .p-ver-m
 .cuidados .title .title__info {
   width: 35%;
   color: rgb(27, 27, 27);
-  font-size: 3.125rem;
+  font-size: 2.5rem;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   text-align: center;
@@ -882,37 +882,6 @@ main section .container-cards .caja-cards .caja-ver-mas .enlace-ver-mas .p-ver-m
   font-size: 0.938rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-}
-
-.title {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  column-gap: 5%;
-}
-.title .title__info {
-  width: 35%;
-  color: rgb(27, 27, 27);
-  font-size: 3.125rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  text-align: center;
-  padding-top: 3rem;
-  text-shadow: red 0 0, cyan 0 0;
-  transition: text-shadow 200ms;
-}
-.title .title__info:hover {
-  text-shadow: red -6px 0, cyan 6px 0;
-}
-.title .title__img {
-  width: 60%;
-  max-width: 144px;
-  height: auto;
-  display: block;
 }
 
 .contenedor-cards .card .out-stock {
